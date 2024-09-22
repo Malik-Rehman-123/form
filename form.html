@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+   <link rel="stylesheet" href="form.css">
+   </head>
+<body>
+  <h2>Registration Form</h2>
+  <form>
+    <div>Name: <input type="text" id="Name"/></div>
+    <br />
+    <div>Role: <input type="text" id="Role" /></div>
+    <br/>
+    <div>Age: <input type="number" id="Age"/></div>
+    <br/>
+    <div>
+      Education: <input type="text" id="myEdcation"/>
+    </div>
+    <br/>
+    <div>
+      Skills: <input type="text" id="mySkills"/>
+    </div>
+    <br/>
+    <div>Email: <input type="email" name="myemail" id="Email"/></div>
+    <br />
+    <div>Date: <input type="date" name="myDate" id="Date" /></div>
+    <br />
+    <div>Bonus: <input type="number" name="myBonus" id="Bonus"/></div>
+    <br />
+    <div>
+      Are you Eligible?: <input type="checkbox" name="myeligibility" id="Eligiblity" />
+    </div>
+    <br />
+    <div>
+      Gender: Male <input type="radio" name="myGender" id="male" /> female
+      <input type="radio" name="myGender" id="female" /> other
+      <input
+      type="radio"
+      name="
+      myGender"
+      />
+    </div>
+    <br />
+    <div> 
+      <Lable for="car">Car</Lable>
+      <select name="mycar" id="Car">
+        <option value="swf">swift</option> 
+        <option value="ind">indica</option> 
+        <option value="cul" selected>cultex</option> 
+      </select>
+    </div>
+    <br>
+    <div>
+      Write about yourself: <br><textarea name="mytext" cols="30" rows="10" ></textarea> </div>
+      <br />
+      <div> <input type="submit" onclick="handlerSubmit(event)" name="Submit Now" />
+        <input type="Reset" name="Reset Now" />
+      </div>
+      
+      <br />
+    </form>
+    <p id="email-address"></p>
+
+    <script src="main.js"></script>
+</body>
+</html>
